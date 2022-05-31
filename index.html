@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Maciej Ziarkowski | Business card</title>
+    <meta charset="UTF-8" />
+
+    <style>
+        html,body {
+            padding:0;
+            margin:0;
+            background-color: #008080;
+        }
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
+  </head>
+
+  <body>
+      <div style="display: flex; height: 100vh; justify-content: center; align-items: center;">
+        <div style="width: 327px; height: 192px; position:relative;">
+
+    <div class="window" style="position:absolute; left: 11px;right:21px;top:11px;bottom:21px; z-index: 1;">
+        <div class="title-bar">
+            <div class="title-bar-text">
+              Maciej Ziarkowski
+            </div>
+    
+            <div class="title-bar-controls">
+              <button aria-label="Maximize"></button>
+            </div>
+        </div>
+        <div class="window-body" style="position:relative; height:80%;">
+            <div class="field-row">
+                <input checked type="checkbox" id="example2">
+                <label for="example2">Programmer</label>
+            </div>
+            <div class="field-row">
+                <input checked type="checkbox" id="example3">
+                <label for="example3">Designer</label>
+            </div>
+            <div class="field-row">
+                <input checked type="checkbox" id="example4">
+                <label for="example4">Futurist</label>
+            </div>
+
+            <div style="background-color: #FFFFCC; border-radius: 3px; border: 1px solid #111; position: absolute; right: 64px; top: 0; width: 94px; z-index: 3; padding: 5px; box-sizing: border-box;">
+                E-mail me at: <a href="mailto:maciej.ziarkowski@gmail.com" style="word-wrap: break-word;">maciej.ziarkowski@gmail.com</a>
+                <div style="position:absolute; right:-11px; top:12px; height: 6px; width: 12px; background-image: linear-gradient(to top left, transparent 45%, #111 45%, #111 55%, #FFC 0); border-top: 1px solid #111; border-left: 2px solid #FFC; box-sizing: border-box;z-index:-1"></div>
+    
+            </div>
+            <div style="position:absolute; right:0px;top:-4px;height:60px;">
+                <img src="images/Atty.png" title="Atty" style="object-fit:contain; max-height:100%; filter: brightness(130%) contrast(130%);"/>
+            </div>
+            <div style="position:absolute; bottom:30px; left: -3px;height:30px">
+                <img src="images/Geospatial.png" title="Geospatial" style="object-fit:contain; max-height:100%"/>
+            </div>
+            <div style="position:absolute; bottom:-4px; left: 0px;height:35px">
+                <img src="images/XR.png" title="XR" style="object-fit:contain; max-height:100%"/>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    
+        <div class="window" style="position:absolute; right: 11px; bottom: 11px; width: 180px;z-index:2">
+        <div class="title-bar">
+            <div class="title-bar-text">
+            Important
+            </div>
+
+            <div class="title-bar-controls">
+            <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <p>See you in <strong style="color:purple">The Future™</strong> !</p>
+            <section class="field-row" style="justify-content: flex-end">
+                <button onclick="window.location='future.html'">OK
+                    <div style="position:absolute;bottom:5px;right:10px;height:20px;">
+                        <img src="images/cursor-98.png" style="max-height: 100%;"/>
+                    </div>
+                </button>
+            </section>
+        </div>
+    </div>
+        </div>
+      </div>
+  </body>
+</html>
